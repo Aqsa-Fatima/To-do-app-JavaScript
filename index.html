@@ -1,0 +1,76 @@
+<!-- CODE OF TODO APP -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javscript TODO App</title>
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleAnimation.css">
+
+</head>
+
+<body>
+<!-- background animation -->
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+
+    <!-- header container for date and clear all todo list  -->
+    <div class="container">
+        
+        <div class="header">
+            <!-- this is clear button to clear the doto list -->
+            <div class="clear">
+                <i class="fa fa-refresh"></i>
+            </div>
+
+
+            <!-- this is for date and day  month etc -->
+            <div id="date">
+
+            </div>
+
+        </div>
+
+
+        <!-- this is for input list where we add our data -->
+        <div class="content">
+            <!-- ul foradd the todo list but li teg is use by javascript for customer requirement -->
+            <ul id="list">
+                 <!-- <li class="item">
+                    <i class="fa fa-circle-thin co" job="complete" id="0"></i>
+                    <p class="text"> this my to do app</p>
+                    <i class="fa fa-trash-o de" job="delete" id="0"></i>
+
+                </li> -->
+                <!-- <li class="item">
+                    <i class="fa fa-check-circle co" job="complete" id="0"></i>
+                    <p class="text lineThrough"> this my to do app</p>
+                    <i class="fa fa-trash-o de" job="delete" id="0"></i>
+
+                </li> --> 
+
+
+            </ul>
+        </div>
+
+        <!-- input tage  for send the text  -->
+        <div class="add-to-do">
+            <i class="fa fa-plus-circle"></i>
+            <input type="text" id="input" placeholder="Add a to-do">
+        </div>
+    </div>
+
+
+    <script src="js/app.js"></script>
+    
+</body>
+
+</html>
